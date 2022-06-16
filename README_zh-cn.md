@@ -51,6 +51,11 @@ Python 需要在 `cv` 目录下运行。
 
 同时，请确保 mongodb 在 27017 端口上后台运行，且不要开启身份认证。
 
+### 密钥
+
+* Windows: 运行 `private.ps1` 和 `public.ps1`, 或运行 `private.bat` 和 `public.bat`
+* MacOS / Linux: 运行 `private.sh` 和 `public.sh`
+
 ### Node
 
 #### 开发环境

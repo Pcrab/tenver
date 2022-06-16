@@ -53,6 +53,11 @@ Python command should be run in the `cv` directory.
 Also make sure mongodb is running in the background on port 27017
 without authentication.
 
+### Key
+
+* Windows: run `private.ps1` and `public.ps1`, or `private.bat` and `public.bat`
+* MacOS / Linux: run `private.sh` and `public.sh`
+
 ### Node
 
 #### Development
