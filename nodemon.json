@@ -1,0 +1,18 @@
+{
+  "exec": "ts-node  ./src/server.ts",
+  "ignore": [
+    "node_modules",
+    "**/*.d.ts",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "docs/*"
+  ],
+  "events": {
+    "restart": ""
+  },
+  "watch": [
+    "./src"
+  ],
+  "ext": "ts, json",
+  "inspect": true
+}

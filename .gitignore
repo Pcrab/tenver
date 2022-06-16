@@ -1,0 +1,10 @@
+.idea
+.pnpm-debug.log
+logs
+node_modules
+dist
+cv/videos/**/*
+cv/.pnpm-debug.log
+.env
+private.ec.key
+public.pem
