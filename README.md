@@ -3,7 +3,7 @@
 [中文简体](README_zh-cn.md)
 
 Tenver is the backend of the tennis placement detection system. The frontend
-can be found at [tenweb](https://github.com/Pcrab/teeb).
+can be found at [tenweb](https://github.com/Pcrab/tenweb).
 
 ## Prerequisite
 
