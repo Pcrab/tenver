@@ -91,9 +91,7 @@ app.use((err: any, req: Request, res: Response, _next: NextFunction) => {
       .status(500)
       .json({ code: 500, error: "Unknown Internal Server Error Found!" });
     logger.error(
-      `${err.code || 500} - ${res.statusMessage} - ${req.method} - ${
-        req.originalUrl
-      } - ${req.ip}`
+      `${err.code || 500} - ${res.statusMessage} - ${req.method} - ${req.originalUrl} - ${req.ip}`
     );
   }
 });
